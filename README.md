@@ -9,9 +9,11 @@ Math.abs for non-overlapping increasing sequences
 # use
 
 You'll want to have a non-overlapping increasing sequence that came
-from one of the [robust family of packages](http://npmsearch.com/?q=keywords:robust).
+from a packages in the [robust family of packages](http://npmsearch.com/?q=keywords:robust).
 
-For example's sake we'll simulate that here by using [`robust-split`](https://github.com/tmpvar/robust-split)
+For this example sake we'll simulate that here by using [`robust-split`](https://github.com/tmpvar/robust-split)
+which will convert a JavaScript number into a non-overlapping increasing sequence.  We'll also be using [`robust-estimate-float`](https://github.com/tmpvar/robust-estimate-float)
+to provide more human readable results.
 
 ```javascript
 

@@ -1,0 +1,32 @@
+{
+  "name": "robust-abs",
+  "version": "1.0.0",
+  "description": "Math.abs for non-overlapping increasing sequences",
+  "main": "robust-abs.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tmpvar/robust-abs.git"
+  },
+  "keywords": [
+    "robust",
+    "float",
+    "abs",
+    "Math.abs",
+    "exact"
+  ],
+  "author": "Elijah Insua <tmpvar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tmpvar/robust-abs/issues"
+  },
+  "homepage": "https://github.com/tmpvar/robust-abs",
+  "devDependencies": {
+    "robust-estimate-float": "^1.0.0",
+    "robust-split": "^1.0.0",
+    "robust-sum": "^1.0.0",
+    "tape": "^2.13.4"
+  }
+}
